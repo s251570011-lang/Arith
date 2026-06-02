@@ -6,13 +6,13 @@ body {
     display: flex;
     flex-direction: column;
 
-   
+    background-image: url("ismail.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-
+/* PROFILE IMAGE */
 .profile-img {
     width: 180px;
     height: 180px;
@@ -21,7 +21,7 @@ body {
     border: 3px solid black;
 }
 
-
+/* HEADER */
 header {
     background-color: black;
     color: white;
@@ -29,7 +29,7 @@ header {
     padding: 20px;
 }
 
-
+/* NAVIGATION */
 nav {
     background-color: #333;
     padding: 15px;
@@ -47,6 +47,7 @@ nav a:hover {
     color: yellow;
 }
 
+
 section {
     padding: 20px;
     text-align: center;
@@ -56,6 +57,7 @@ section {
     margin: 20px;
     border-radius: 10px;
 }
+
 
 img:not(.profile-img) {
     border-radius: 10px;
@@ -89,7 +91,6 @@ h3 {
     font-size: 18px;
     color: black;
 }
-
 
 footer {
     background-color: black;
